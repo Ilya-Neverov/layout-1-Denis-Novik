@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'gilroy-medium';
+    src: url("fonts/gilroy-medium.woff2");
+}
+
+@font-face {
+    font-family: 'gilroy-bold';
+    src: url("fonts/gilroy-bold.woff2");
+}
+
+body{
+    min-width: 375px;
+    max-width: 940px;
+    margin: 0 auto 0 auto;
+}
+
+.one{
+
+    margin: 0 auto 0 auto;
+}
+
+nav{
+    margin: 60px 0 20px 0;
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: gilroy-bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+
+a:hover{
+    color: black;
+}
+
+ol{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    display: inline;
+}
+
+p{
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.name{
+    font-family: gilroy-bold;
+    margin: 40px 0 0 0;
+    font-size: 48px;
+    line-height: 59px;
+    font-weight: 900;
+}
+
+.annotation{
+    font-family: gilroy-medium;
+    margin: 0px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.foto{
+    width: 100%;
+    margin: 50px 0 50px 0;
+}
+
+h2{
+    padding: 0;
+    margin: 0;
+    font-family: gilroy-bold;
+    font-size: 34px;
+}
+
+.about_me_text{
+    margin: 30px 0 30px 0;
+}
+
+.about_me{
+    font-family: gilroy-medium;
+    font-size: 18px;
+    /*line-height: 42px;*/
+    background-color: #F6F6F6;
+    padding: 120px 0 120px;
+    text-align: center;
+    margin: 104px 0 0 0;
+    background-size: 1000%;
+}
+
+.skills{
+    margin: 100px 0 100px 0;
+    text-align: center;
+}
+
+.skills_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.skills_img{
+    text-align: center;
+    height: 90px;
+}
+.skils_figure{
+    width: 170px;
+    height: 210px;
+    font-family: ilroy-bold;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.asterisks{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 26px;
+}
+
+.skills_tech{
+    font-family: ilroy-bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+
+.Skills_text{
+    font-family: gilroy-medium;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 65px 0 65px 0;
+}
+
+.portfolio {
+    text-align: center;
+    background-color: #F6F6F6;
+    padding: 110px 0 50px;
+}
+
+.portfolio_heder{
+    /*margin: 0 0 50px 0;*/
+}
+
+.portfolio_card{
+    margin: 0 0 50px 0;
+}
+
+.portfolio_a{
+    color: #010101;
+    font-family: gilroy-medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.contacts{
+    text-align: center;
+}
+
+.contacts_h2{
+    margin: 110px 0 40px 0;
+}
+
+.contacts_text{
+    font-family: gilroy-medium;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 30px 0;
+}
+
+.contacts_mail{
+    margin: 0 auto 30px auto;
+    border: solid;
+    border-color: black;
+    border-radius: 25px;
+    width: 250px;
+    height: 50px;
+    position: relative;
+}
+.contacts_mail_text{
+    margin: 0 auto 0 auto;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+}
+
+.contacts_logo{
+    margin:  0 auto 0 auto;
+    height: 44px;
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts_text_2{
+    margin: 30px 0 100px 0;
+    font-family: gilroy-medium;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
